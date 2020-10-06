@@ -10,7 +10,7 @@ import Foundation
 
 struct District: Decodable {
     var districtData: [String: CovidCount]?
-    var statecode: String?
+    var stateCode: String?
     struct CovidCount: Decodable {
         var notes: String?
         var active: Int?
@@ -24,4 +24,8 @@ struct District: Decodable {
               var recovered: Int?
         }
     }
+    enum CodingKeys: String, CodingKey {
+            case stateCode = "statecode"
+            case districtData
+        }
 }

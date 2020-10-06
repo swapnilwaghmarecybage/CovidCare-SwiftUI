@@ -36,19 +36,3 @@ extension CaseType {
     }
   }
 }
-///
-///
-extension CaseType {
-  var barTag: Int {
-    switch self {
-    case .confirmed:
-      return 101
-    case .active:
-      return 201
-    case .recovered:
-      return 301
-    case .deceased:
-      return 401
-    }
-  }
-}

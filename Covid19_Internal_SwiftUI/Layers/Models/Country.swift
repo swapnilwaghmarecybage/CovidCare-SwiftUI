@@ -37,12 +37,15 @@ struct Country: Decodable {
     var criticalPerOneMillion: Double?
     var countryInfo: CountryInfo?
     struct CountryInfo: Decodable {
-        // swiftlint:disable identifier_name
-        var _id: Int?
+        var countryId: Int?
         var iso2: String?
         var iso3: String?
         var lat: Double?
         var long: Double?
         var flag: String?
+        enum CodingKeys: String, CodingKey {
+                case countryId = "_id"
+                case iso2, iso3, lat, long, flag
+            }
     }
 }

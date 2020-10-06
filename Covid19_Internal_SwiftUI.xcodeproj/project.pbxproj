@@ -57,7 +57,7 @@
 		1CED4E6724BDC143004F832D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CED4E6624BDC143004F832D /* Assets.xcassets */; };
 		1CED4E6A24BDC143004F832D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CED4E6924BDC143004F832D /* Preview Assets.xcassets */; };
 		1CED4E6D24BDC143004F832D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CED4E6B24BDC143004F832D /* LaunchScreen.storyboard */; };
-		EB3D207E5E18F1638BC947B8 /* libPods-Covid19_Internal_SwiftUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBB130A891C76465693E6F0 /* libPods-Covid19_Internal_SwiftUI.a */; };
+		980C498B373E0E2A4E69D837 /* Pods_Covid19_Internal_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB2B31424D123BC8DFE3370 /* Pods_Covid19_Internal_SwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,8 +114,8 @@
 		1CED4E6C24BDC143004F832D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CED4E6E24BDC143004F832D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36E7C1D33A7152A0C90EF93E /* Pods-Covid19_Internal_SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19_Internal_SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Covid19_Internal_SwiftUI/Pods-Covid19_Internal_SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
-		3DBB130A891C76465693E6F0 /* libPods-Covid19_Internal_SwiftUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Covid19_Internal_SwiftUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		504C22D6D356B926D5C099DE /* Pods-Covid19_Internal_SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19_Internal_SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-Covid19_Internal_SwiftUI/Pods-Covid19_Internal_SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		BEB2B31424D123BC8DFE3370 /* Pods_Covid19_Internal_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid19_Internal_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB3D207E5E18F1638BC947B8 /* libPods-Covid19_Internal_SwiftUI.a in Frameworks */,
+				980C498B373E0E2A4E69D837 /* Pods_Covid19_Internal_SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +314,7 @@
 		C700E659E63AE183D3557450 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DBB130A891C76465693E6F0 /* libPods-Covid19_Internal_SwiftUI.a */,
+				BEB2B31424D123BC8DFE3370 /* Pods_Covid19_Internal_SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -331,6 +331,7 @@
 				1CED4E5A24BDC13E004F832D /* Frameworks */,
 				1CED4E5B24BDC13E004F832D /* Resources */,
 				1C342EB82510CC8300FE4CE0 /* ShellScript */,
+				DF29A379B7D30A4610E3DDCF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -429,6 +430,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		DF29A379B7D30A4610E3DDCF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid19_Internal_SwiftUI/Pods-Covid19_Internal_SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid19_Internal_SwiftUI/Pods-Covid19_Internal_SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid19_Internal_SwiftUI/Pods-Covid19_Internal_SwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 

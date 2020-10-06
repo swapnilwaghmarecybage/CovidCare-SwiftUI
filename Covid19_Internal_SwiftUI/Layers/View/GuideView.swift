@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct GuideView: View {
     var body: some View {
@@ -20,11 +21,20 @@ struct GuideView: View {
                     .font(.system(size: 25, weight: .regular))
                     .listRowBackground(Color(Theme.backgroundColor))
                 HStack {
-                    Image(uiImage: UIImage.gifImageWithName("light_fever") ?? UIImage())
+                    AnimatedImage(url: Bundle.main.url(forResource: "light_fever", withExtension: "gif")!)
+                            .onFailure(perform: { (error) in
+                                print("error loading gif: \(error)")
+                            })
                         .frame(maxWidth: .infinity, minHeight: 130)
-                    Image(uiImage: UIImage.gifImageWithName("light_cough") ?? UIImage())
+                    AnimatedImage(url: Bundle.main.url(forResource: "light_cough", withExtension: "gif")!)
+                            .onFailure(perform: { (error) in
+                                print("error loading gif: \(error)")
+                            })
                         .frame(maxWidth: .infinity, minHeight: 130)
-                    Image(uiImage: UIImage.gifImageWithName("light_tiredness") ?? UIImage())
+                    AnimatedImage(url: Bundle.main.url(forResource: "light_tiredness", withExtension: "gif")!)
+                            .onFailure(perform: { (error) in
+                                print("error loading gif: \(error)")
+                            })
                         .frame(maxWidth: .infinity, minHeight: 130)
                 }.background(Color(Theme.highlightedColor))
                     .cornerRadius(10)
