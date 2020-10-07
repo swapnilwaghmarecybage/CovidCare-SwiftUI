@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,7 +27,6 @@
 		1C7ACF8824D078DD00C0221D /* CountriesWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7ACF6224D078DD00C0221D /* CountriesWebService.swift */; };
 		1C7ACF8A24D078DD00C0221D /* IndiaHistoricalDataWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7ACF6424D078DD00C0221D /* IndiaHistoricalDataWebServices.swift */; };
 		1C7ACF8B24D078DD00C0221D /* DistrictWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7ACF6524D078DD00C0221D /* DistrictWebService.swift */; };
-		1C7ACF8D24D07CAF00C0221D /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7ACF8C24D07CAF00C0221D /* ImageExtension.swift */; };
 		1C7ACF9424D08EEA00C0221D /* TotalCountCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7ACF9324D08EEA00C0221D /* TotalCountCellView.swift */; };
 		1C7ACF9624D08F1A00C0221D /* ChildCountCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7ACF9524D08F1A00C0221D /* ChildCountCellView.swift */; };
 		1C7ACF9B24D0901500C0221D /* GraphCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7ACF9A24D0901500C0221D /* GraphCell.swift */; };
@@ -57,7 +56,7 @@
 		1CED4E6724BDC143004F832D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CED4E6624BDC143004F832D /* Assets.xcassets */; };
 		1CED4E6A24BDC143004F832D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CED4E6924BDC143004F832D /* Preview Assets.xcassets */; };
 		1CED4E6D24BDC143004F832D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CED4E6B24BDC143004F832D /* LaunchScreen.storyboard */; };
-		EB3D207E5E18F1638BC947B8 /* libPods-Covid19_Internal_SwiftUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBB130A891C76465693E6F0 /* libPods-Covid19_Internal_SwiftUI.a */; };
+		3C5240E999B6ECB5E1703FE1 /* Pods_Covid19_Internal_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC95769FC612914D47BF4883 /* Pods_Covid19_Internal_SwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,7 +80,6 @@
 		1C7ACF6224D078DD00C0221D /* CountriesWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesWebService.swift; sourceTree = "<group>"; };
 		1C7ACF6424D078DD00C0221D /* IndiaHistoricalDataWebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndiaHistoricalDataWebServices.swift; sourceTree = "<group>"; };
 		1C7ACF6524D078DD00C0221D /* DistrictWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictWebService.swift; sourceTree = "<group>"; };
-		1C7ACF8C24D07CAF00C0221D /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		1C7ACF9324D08EEA00C0221D /* TotalCountCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalCountCellView.swift; sourceTree = "<group>"; };
 		1C7ACF9524D08F1A00C0221D /* ChildCountCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCountCellView.swift; sourceTree = "<group>"; };
 		1C7ACF9A24D0901500C0221D /* GraphCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCell.swift; sourceTree = "<group>"; };
@@ -114,8 +112,8 @@
 		1CED4E6C24BDC143004F832D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CED4E6E24BDC143004F832D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36E7C1D33A7152A0C90EF93E /* Pods-Covid19_Internal_SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19_Internal_SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-Covid19_Internal_SwiftUI/Pods-Covid19_Internal_SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
-		3DBB130A891C76465693E6F0 /* libPods-Covid19_Internal_SwiftUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Covid19_Internal_SwiftUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		504C22D6D356B926D5C099DE /* Pods-Covid19_Internal_SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid19_Internal_SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-Covid19_Internal_SwiftUI/Pods-Covid19_Internal_SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		AC95769FC612914D47BF4883 /* Pods_Covid19_Internal_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid19_Internal_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB3D207E5E18F1638BC947B8 /* libPods-Covid19_Internal_SwiftUI.a in Frameworks */,
+				3C5240E999B6ECB5E1703FE1 /* Pods_Covid19_Internal_SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,15 +141,126 @@
 		1C300D7124D2EF1500F69279 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				1C71BA5A252E024A008B715E /* Graph */,
+				1C71BA59252E0240008B715E /* CovidCount */,
 				1C28181824DAFBEB008316DB /* Guide */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1C71BA59252E0240008B715E /* CovidCount */ = {
+			isa = PBXGroup;
+			children = (
 				1C7ACF9324D08EEA00C0221D /* TotalCountCellView.swift */,
 				1C7ACF9524D08F1A00C0221D /* ChildCountCellView.swift */,
+				1C300D7824D3571700F69279 /* NationalFlag.swift */,
+			);
+			path = CovidCount;
+			sourceTree = "<group>";
+		};
+		1C71BA5A252E024A008B715E /* Graph */ = {
+			isa = PBXGroup;
+			children = (
 				1C7ACF9A24D0901500C0221D /* GraphCell.swift */,
 				1C7ACF9C24D0906100C0221D /* BarChartView.swift */,
 				1C7ACF9E24D090BA00C0221D /* PieChartView.swift */,
-				1C300D7824D3571700F69279 /* NationalFlag.swift */,
 			);
-			path = Cells;
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		1C71BA5C252E02F4008B715E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				1CED4E6424BDC13E004F832D /* RootView.swift */,
+				1C300D7324D3387000F69279 /* TabViewParent.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		1C71BA5D252E0311008B715E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1C7ACF5724D078DD00C0221D /* Models */,
+				1C71BA61252E03F6008B715E /* Views */,
+				1C7ACF3F24D078DD00C0221D /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1C71BA5E252E0318008B715E /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				1C71BA63252E041B008B715E /* View */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		1C71BA5F252E0320008B715E /* District */ = {
+			isa = PBXGroup;
+			children = (
+				1C71BA66252E044E008B715E /* ViewModels */,
+				1C71BA65252E043C008B715E /* Models */,
+				1C71BA64252E0425008B715E /* Views */,
+			);
+			path = District;
+			sourceTree = "<group>";
+		};
+		1C71BA60252E0348008B715E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C7ACF3A24D078DD00C0221D /* Guide */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1C71BA61252E03F6008B715E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C300D7224D3387000F69279 /* SegmentController.swift */,
+				1C7ACFA024D0910600C0221D /* HomeView.swift */,
+				1C300D7424D3387000F69279 /* HomeList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C71BA63252E041B008B715E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C7ACFA224D0913500C0221D /* GuideView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C71BA64252E0425008B715E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C66E02C24D4A54A00FD9678 /* DistrictList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1C71BA65252E043C008B715E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C7ACF5B24D078DD00C0221D /* District.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C71BA66252E044E008B715E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1C66E02A24D49E6700FD9678 /* DistrictViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1C71BA69252E0487008B715E /* NetworkMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				1CCB89F825259F3A00B10EEE /* NetworkMonitor.swift */,
+			);
+			path = NetworkMonitor;
 			sourceTree = "<group>";
 		};
 		1C7ACF3324D0739000C0221D /* Utilities */ = {
@@ -174,32 +283,20 @@
 		1C7ACF3624D078DC00C0221D /* Network Manager */ = {
 			isa = PBXGroup;
 			children = (
-				1CCB89F825259F3A00B10EEE /* NetworkMonitor.swift */,
+				1C71BA69252E0487008B715E /* NetworkMonitor */,
+				1C7ACF6124D078DD00C0221D /* WebService */,
 			);
 			path = "Network Manager";
 			sourceTree = "<group>";
 		};
-		1C7ACF3A24D078DD00C0221D /* GuideResources */ = {
+		1C7ACF3A24D078DD00C0221D /* Guide */ = {
 			isa = PBXGroup;
 			children = (
 				1C7ACF3B24D078DD00C0221D /* light_fever.gif */,
 				1C7ACF3C24D078DD00C0221D /* light_tiredness.gif */,
 				1C7ACF3D24D078DD00C0221D /* light_cough.gif */,
 			);
-			path = GuideResources;
-			sourceTree = "<group>";
-		};
-		1C7ACF3E24D078DD00C0221D /* Layers */ = {
-			isa = PBXGroup;
-			children = (
-				1C7ACF3624D078DC00C0221D /* Network Manager */,
-				1C8D1AE4252B3491004D494C /* Extensions */,
-				1C7ACF8E24D08C6E00C0221D /* View */,
-				1C7ACF3F24D078DD00C0221D /* ViewModels */,
-				1C7ACF5724D078DD00C0221D /* Models */,
-				1C7ACF6124D078DD00C0221D /* WebService */,
-			);
-			path = Layers;
+			path = Guide;
 			sourceTree = "<group>";
 		};
 		1C7ACF3F24D078DD00C0221D /* ViewModels */ = {
@@ -208,7 +305,6 @@
 				1C7ACF4324D078DD00C0221D /* HomeTabViewModel.swift */,
 				1C7ACFA424D0A0E000C0221D /* CountryViewModel.swift */,
 				1C7ACFA624D1F3C500C0221D /* StateViewModel.swift */,
-				1C66E02A24D49E6700FD9678 /* DistrictViewModel.swift */,
 				1C342EB925120BBA00FE4CE0 /* WorldViewModel.swift */,
 			);
 			path = ViewModels;
@@ -219,7 +315,6 @@
 			children = (
 				1C7ACF5824D078DD00C0221D /* Country.swift */,
 				1C7ACF5A24D078DD00C0221D /* IndiaHistory.swift */,
-				1C7ACF5B24D078DD00C0221D /* District.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -234,25 +329,21 @@
 			path = WebService;
 			sourceTree = "<group>";
 		};
-		1C7ACF8E24D08C6E00C0221D /* View */ = {
+		1C7ACF8E24D08C6E00C0221D /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				1C71BA5F252E0320008B715E /* District */,
+				1C71BA5E252E0318008B715E /* Guide */,
+				1C71BA5D252E0311008B715E /* Home */,
+				1C71BA5C252E02F4008B715E /* Root */,
 				1C300D7124D2EF1500F69279 /* Cells */,
-				1CED4E6424BDC13E004F832D /* RootView.swift */,
-				1C300D7324D3387000F69279 /* TabViewParent.swift */,
-				1C7ACFA024D0910600C0221D /* HomeView.swift */,
-				1C300D7424D3387000F69279 /* HomeList.swift */,
-				1C300D7224D3387000F69279 /* SegmentController.swift */,
-				1C7ACFA224D0913500C0221D /* GuideView.swift */,
-				1C66E02C24D4A54A00FD9678 /* DistrictList.swift */,
 			);
-			path = View;
+			path = Features;
 			sourceTree = "<group>";
 		};
 		1C8D1AE4252B3491004D494C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				1C7ACF8C24D07CAF00C0221D /* ImageExtension.swift */,
 				1CDD482424C5CB5000054986 /* ImageViewExtension.swift */,
 				1CDD482524C5CB5000054986 /* TabBarExtension.swift */,
 				1CDD482324C5CB4F00054986 /* UISegmentControlExtension.swift */,
@@ -281,8 +372,10 @@
 		1CED4E5F24BDC13E004F832D /* Covid19_Internal_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				1C7ACF3A24D078DD00C0221D /* GuideResources */,
-				1C7ACF3E24D078DD00C0221D /* Layers */,
+				1C71BA60252E0348008B715E /* Resources */,
+				1C7ACF3624D078DC00C0221D /* Network Manager */,
+				1C8D1AE4252B3491004D494C /* Extensions */,
+				1C7ACF8E24D08C6E00C0221D /* Features */,
 				1C7ACF3324D0739000C0221D /* Utilities */,
 				1CED4E6024BDC13E004F832D /* AppDelegate.swift */,
 				1CED4E6224BDC13E004F832D /* SceneDelegate.swift */,
@@ -314,7 +407,7 @@
 		C700E659E63AE183D3557450 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DBB130A891C76465693E6F0 /* libPods-Covid19_Internal_SwiftUI.a */,
+				AC95769FC612914D47BF4883 /* Pods_Covid19_Internal_SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -331,6 +424,7 @@
 				1CED4E5A24BDC13E004F832D /* Frameworks */,
 				1CED4E5B24BDC13E004F832D /* Resources */,
 				1C342EB82510CC8300FE4CE0 /* ShellScript */,
+				9E7249C99AF6AA75B5A674D4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -430,6 +524,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 		};
+		9E7249C99AF6AA75B5A674D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid19_Internal_SwiftUI/Pods-Covid19_Internal_SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid19_Internal_SwiftUI/Pods-Covid19_Internal_SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid19_Internal_SwiftUI/Pods-Covid19_Internal_SwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -477,7 +588,6 @@
 				1C8D1B02252B467A004D494C /* Theme.swift in Sources */,
 				1C7ACF8824D078DD00C0221D /* CountriesWebService.swift in Sources */,
 				1C8D1AEE252B3C5F004D494C /* API.swift in Sources */,
-				1C7ACF8D24D07CAF00C0221D /* ImageExtension.swift in Sources */,
 				1CED4E6524BDC13E004F832D /* RootView.swift in Sources */,
 				1CD3000124C8A6DF00C31AAB /* ChartsLayer.swift in Sources */,
 				1CDD481A24BF097400054986 /* Globals.swift in Sources */,

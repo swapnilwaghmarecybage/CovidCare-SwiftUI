@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct GuideView: View {
     var body: some View {
@@ -20,12 +21,12 @@ struct GuideView: View {
                     .font(.system(size: 25, weight: .regular))
                     .listRowBackground(Color(Theme.backgroundColor))
                 HStack {
-                    Image(uiImage: UIImage.gifImageWithName("light_fever") ?? UIImage())
-                        .frame(maxWidth: .infinity, minHeight: 130)
-                    Image(uiImage: UIImage.gifImageWithName("light_cough") ?? UIImage())
-                        .frame(maxWidth: .infinity, minHeight: 130)
-                    Image(uiImage: UIImage.gifImageWithName("light_tiredness") ?? UIImage())
-                        .frame(maxWidth: .infinity, minHeight: 130)
+                    AnimatedImage(name: "light_fever.gif",
+                                  bundle: Bundle.main).frame(maxWidth: .infinity, minHeight: 130)
+                    AnimatedImage(name: "light_cough.gif",
+                                  bundle: Bundle.main).frame(maxWidth: .infinity, minHeight: 130)
+                    AnimatedImage(name: "light_tiredness.gif",
+                                  bundle: Bundle.main).frame(maxWidth: .infinity, minHeight: 130)
                 }.background(Color(Theme.highlightedColor))
                     .cornerRadius(10)
                 .listRowBackground(Color(Theme.backgroundColor))
